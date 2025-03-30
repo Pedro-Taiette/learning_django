@@ -73,6 +73,3 @@ venv.bak/
 
 # Poetry
 poetry.lock
-
-# Pipenv
-Pipfile.lock
