@@ -3,13 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# C extensions
-*.so
-
 # Distribution / packaging
 .Python
 build/
-develop-eggs/
 dist/
 downloads/
 eggs/
@@ -25,10 +21,6 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
-
-# PyInstaller
-*.manifest
-*.spec
 
 # Installer logs
 pip-log.txt
@@ -49,10 +41,6 @@ coverage.xml
 .pytest_cache/
 cover/
 
-# Translations
-*.mo
-*.pot
-
 # Django specific files
 *.log
 local_settings.py
@@ -60,7 +48,6 @@ db.sqlite3
 db.sqlite3-journal
 media/
 staticfiles/
-static/
 __pycache__/
 *.pyc
 *.pyo
@@ -72,52 +59,6 @@ venv/
 **/migrations/*.py
 !**/migrations/__init__.py
 
-# Flask specific files
-instance/
-.webassets-cache
-
-# Scrapy specific files
-.scrapy
-
-# Sphinx documentation
-docs/_build/
-
-# PyBuilder
-.pybuilder/
-target/
-
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# IPython
-profile_default/
-ipython_config.py
-
-# pyenv
-.python-version
-
-# pipenv
-Pipfile.lock
-
-# poetry
-poetry.lock
-
-# pdm
-pdm.lock
-.pdm.toml
-.pdm-python
-.pdm-build/
-
-# PEP 582
-__pypackages__/
-
-# Celery
-celerybeat-schedule
-celerybeat.pid
-
-# SageMath
-*.sage.py
-
 # Virtual environments
 .env
 .venv
@@ -127,35 +68,11 @@ ENV/
 env.bak/
 venv.bak/
 
-# Spyder
-.spyderproject
-.spyproject
-
-# Rope
-.ropeproject
-
-# MkDocs
-/site
-
-# mypy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre
-.pyre/
-
-# pytype
-.pytype/
-
-# Cython
-cython_debug/
-
 # PyCharm
 .idea/
 
-# Ruff
-.ruff_cache/
+# Poetry
+poetry.lock
 
-# PyPI configuration
-.pypirc
+# Pipenv
+Pipfile.lock
