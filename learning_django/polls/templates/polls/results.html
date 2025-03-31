@@ -16,5 +16,8 @@
         {% endfor %}
     </ul>
 
-    <a href="{% url 'polls:detail' question.id %}" class="poll-vote-again">Vote Again</a>
+    <div class="poll-buttons">
+        <a href="{% url 'polls:detail' question.id %}" class="poll-vote-again">Vote Again</a>
+        <a href="{% url 'polls:index' %}" class="poll-vote-again">Back to Home</a>
+    </div>
 </div>
