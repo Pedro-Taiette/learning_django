@@ -5,9 +5,11 @@ To run the Django application, follow these steps:
 1. Clone the repository:
    ```bash
    git clone https://github.com/your_username/learning_django.git
+   ```
+   ```bash
    cd learning_django
    ```
-2. Run the setup script:
+1. Run the setup script:
    
    (Linux)
    ```bash
