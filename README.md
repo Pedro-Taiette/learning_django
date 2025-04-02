@@ -22,3 +22,4 @@ To run the Django application, follow these steps:
    
    This will install the dependencies and run the Django application online.
 
+**Note:** For academic purposes, a default superuser will be created. Check the setup script for more details on this process.
